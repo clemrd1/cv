@@ -28,3 +28,32 @@
 .card .divider {
 	margin-bottom: 10px;
 }
+
+.container .card .card-action a {
+	color: #ee6e73 !important;
+}
+
+.container .card {
+	min-height: 300px;
+}
+
+.container .modal {
+	width: 90%;
+	max-height:100%;
+	top:0% !important;
+}
+
+@media only screen and (min-width: 601px) {
+  .container .modal {
+    width: 80%;
+    max-height:80%;
+    top:10% !important;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .container .modal {
+    width: 70%;
+    top:10% !important;
+  }
+}
