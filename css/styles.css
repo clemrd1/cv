@@ -1,0 +1,30 @@
+.header {
+	color: #ee6e73;
+}
+
+.mot-cle .chip {
+	background-color: #ee6e73;
+	color: white;
+}
+
+.material-icons.md-red { 
+	color: #ee6e73; 
+}
+
+.notation {
+	display: inline-block;
+	width: 100%;
+}
+
+.stars {
+	margin-left:auto; 
+	margin-right:0;
+}
+
+.profile-image {
+	max-width:300px;
+}
+
+.card .divider {
+	margin-bottom: 10px;
+}
