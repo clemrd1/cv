@@ -1,15 +1,37 @@
 .header {
-	color: #ee6e73;
+	color: #2196f3;
+}
+
+.brand-logo {
+	text-align:left;
+}
+
+
+@media only screen and (max-width: 601px) {
+  .brand-logo {
+    text-align:center !important;
+    width:100%;
+  }
+}
+
+.presentation .mot-cle {
+	text-align:center;
+}
+
+@media only screen and (min-width: 601px) {
+  .presentation .mot-cle {
+    text-align:left !important;
+  }
 }
 
 .mot-cle .chip {
-	background-color: #ee6e73;
+	background-color: #2196f3;
 	color: white;
-	font-size: 13px;
+	font-size: 12px;
 }
 
-.material-icons.md-red { 
-	color: #ee6e73; 
+.material-icons.md-blue { 
+	color: #2196f3; 
 }
 
 .notation {
@@ -31,11 +53,11 @@
 }
 
 .container .card .card-action a {
-	color: #ee6e73 !important;
+	color: #2196f3 !important;
 }
 
 .container .card {
-	min-height: 300px;
+	min-height: 310px;
 }
 
 .container .modal {
@@ -63,4 +85,67 @@
 	font-weight: bold;
 	color: #757575;
 	font-size: 22px;
+}
+
+.card .card-content .carte-emploi p {
+	color: #757575;
+	font-size: 16px;
+	margin: 8px !important;
+}
+
+.card .card-content .carte-formation p {
+	color: #757575;
+	font-size: 16px;
+	margin: 5px !important;
+	min-height: 3.5rem;
+}
+
+.card .card-content .notation p {
+	color: #757575;
+	font-size: 16px;
+}
+
+.container p {
+	color: #757575;
+}
+
+.mot-important {
+	font-weight: bold;
+}
+
+.contenu-modal h2 {
+	color: #757575;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.contenu-modal p {
+	color: #757575;
+	font-size: 16px;
+}
+
+.contenu-modal ul {
+	list-style-type: circle;
+}
+
+.contenu-modal ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin:0px 0px 10px 0px;
+}
+
+.contenu-modal li {
+    color: #757575;
+	font-size: 16px;
+}
+
+.contenu-modal li:before {
+	color: #757575;
+    content: "•";
+    padding-right: 8px;
+}
+
+footer a {
+	text-decoration: underline;
 }
