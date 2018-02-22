@@ -18,6 +18,10 @@
 	text-align:center;
 }
 
+.text-presentation {
+	text-align: justify;
+}
+
 @media only screen and (min-width: 601px) {
   .presentation .mot-cle {
     text-align:left !important;
@@ -45,7 +49,19 @@
 }
 
 .profile-image {
-	max-width:300px;
+	max-width:100px;
+}
+
+@media only screen and (min-width: 601px) {
+  .profile-image {
+    max-width:200px;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .profile-image {
+    max-width:250px;
+  }
 }
 
 .card .divider {
